@@ -1,0 +1,16 @@
+s={4,9,1,5,8,80,"anu"}
+print(min(s))
+print(sum(s))
+s2=sorted(s)
+print(s2)
+s2={9,4,5,3,8}
+s3=s.union(s2)
+print(s3)
+s.difference(s2)
+print(s)
+s3=s.intersection(s2)
+print(s3)
+s.update(s2)
+print(s)
+s.difference(s2)
+print(s)

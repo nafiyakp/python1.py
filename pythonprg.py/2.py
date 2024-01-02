@@ -1,0 +1,35 @@
+l=["naf",1,3,4.6,"arjun"]
+l2=[6,9,9]
+print(l[0])
+print(l*2)
+print(l+l2)
+print(l[2:])
+del l[-1]
+print(l)
+print(len(l))
+tuple=("na",0,6)
+print(list(tuple))
+d={1,3,4,"pin"}
+print(list(d))
+l.append(100)
+print(l)
+l.append(l2)
+print(l)
+print(l.count(1))
+l.extend(l2)
+print(l)
+print(l+l2)
+l2.insert(1,8)
+print(l2)
+l2.sort()
+print(l2)
+l2.pop(-1)
+print(l2)
+l[0]=100
+print(l)
+print(max(l2))
+s="anurah ahxjdjdj"
+print(s.split(" "))
+s=int(input("enter a list:"))
+lis=list(map(int,s.split()))
+print(lis)
